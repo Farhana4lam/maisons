@@ -1,0 +1,43 @@
+/* for card */
+.card{
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 20px 20px 36px;
+  cursor: pointer;
+}
+
+
+.card:hover{
+    background: #b65149;
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.custom-container{
+    margin-top: 20px;
+    background: #e09b80;
+    border-radius: 3px;
+    padding: 20px;
+}
+.custom-col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-lg{
+    padding: 20px;
+}
+.btn{
+    background: #b65149;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.card:hover .btn{
+    transform: scale(1.05);
+    background: #e09b80;
+}
